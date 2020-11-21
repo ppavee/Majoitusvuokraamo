@@ -49,7 +49,7 @@ namespace MajoitusVuokraamo
                 if(majoitus != null && onkoVoimassaOleviaVarauksia(majoitus))
                 {
                     majoituskohteeniInfoLbl.ForeColor = System.Drawing.Color.Red;
-                    majoituskohteeniInfoLbl.Text = "Majoituskohteen poistaminen epäonnistui. Majoituksella on aktiivisia varauksia.";
+                    majoituskohteeniInfoLbl.Text = "Majoituskohteen poistaminen epäonnistui.\nMajoituksella on aktiivisia varauksia.";
                     return;
                 }
                 
